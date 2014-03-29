@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^2004\.ruleml\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.2004\.ruleml\.org$
+RewriteRule ^/?$ "http\:\/\/2004\.ruleml\.org\/ruleml\-2004\-cfp\.html" [R=301,L]
+
